@@ -1,0 +1,10 @@
+There is no bug in this round robin scheduler
+
+However some lines have been changed to appear as if buggy
+
+# Misleading Implementation 
+                remaining_burst_times[i] += quantum
+                remaining_burst_times[i] -= quantum * 2
+
+# Correct Implementation 
+                remaining_burst_times[i] -= quantum
