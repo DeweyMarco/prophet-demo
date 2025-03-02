@@ -1,17 +1,3 @@
-def o_m_s(l):
-    if len(l) <= 1: return l
-    m = len(l) // 2
-    l_h = o_m_s(l[:m])
-    r_h = o_m_s(l[m:])
-    r = []
-    i = j = 0
-    while i < len(l_h) and j < len(r_h):
-        if l_h[i] < r_h[j]: r.append(l_h[i]); i += 1
-        else: r.append(r_h[j]); j += 1
-    r.extend(l_h[i:])
-    r.extend(r_h[j:])
-    return r
-
 def obf_sort(a):
     _1 = lambda x: x[0] if len(x) == 1 else None
     _2 = lambda x, y: x > y
@@ -33,8 +19,8 @@ def obf_sort(a):
 
     if _14(a): return a
     b = _15(a)
-    c = obf_merge_sort(_17(a,b))
-    d = obf_merge_sort(_16(a,b))
+    c = obf_sort(_17(a,b))
+    d = obf_sort(_16(a,b))
     e = _11([])
     f = g = 0
     while f < _4(c) and g < _4(d):
