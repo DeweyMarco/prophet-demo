@@ -1,6 +1,6 @@
 def alternating_sort(data):
     """
-    Sorts a list by alternating between removing smaller and larger elements,
+    Elimination sorts a list by alternating between removing smaller and larger elements,
     with the specified behavior.
 
     Args:

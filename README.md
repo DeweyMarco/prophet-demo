@@ -7,39 +7,30 @@
 **[Visit Our Website](https://prophet.pythonanywhere.com/)**
 
 ## Getting Started
+1.  **Installation:**
+    * Open VS Code.
+    * Go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X).
+    * Search for "Prophet".
+    * Click "Install".
+    * [Prophet Extension](https://marketplace.visualstudio.com/items?itemName=Prophet.prophet-test-tool)
+2.  **Login:**
+    * Upon activation, the extension will prompt you to log in.
+    * Use your username and password.
+3.  **Testing a Python File:**
+    * Open the Toggle Panel (Ctrl+J or Cmd+J).
+    * Select the "Prophet AI Debugger" tab. 
+    * Click "Run Prophet" on the top right of the Toggle Panel.
+    * Select the file you wish to have evaluated.
+4.  **Viewing Test Results:**
+    * An error popup will appear if the model found a bug.
+    * A success popup will appear if the model found no bugs.
+    * The full response will be displayed in the Toggle Panel.
 
-**1. Installation (VS Code Extension):**
+## Features
 
-   - Open Visual Studio Code.
-   - Navigate to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X).
-   - Search for "Prophet".
-   - Click "Install" from the [Prophet Extension Marketplace Page](https://marketplace.visualstudio.com/items?itemName=Prophet.prophet-test-tool).
-
-**2. Login:**
-
-   - Upon activation, the extension will prompt you for login credentials.
-   - Enter your provided username and password.
-
-**3. Running Prophet Analysis:**
-
-   - Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P).
-   - Type "Run Prophet" and select it.
-   - **Choose a Model:** Select the AI model you want to use for analysis (Prophet, DeepSeek, or Gemini).
-   - **Select a File:** Choose the Python file you wish to analyze for bugs.
-
-**4. Viewing Results:**
-
-   - **Notifications:**
-     - A success notification will appear if no bugs are found.
-     - An error notification will appear if potential bugs are detected.
-   - **Output Channels:**
-     - **"Prophet Analysis"**: Provides a concise summary of the analysis results.
-     - **"Prophet Analysis Detailed"**: Displays the full, detailed response from the chosen AI model.
-
-## Key Features
-* **AI-Driven Bug Detection:** Leverages powerful language models to identify potential issues in your Python code.
-* **Multi-Model Support:** Choose between Prophet, DeepSeek, and Gemini models for varied analysis perspectives.
-* **Clear Output Integration:** Delivers analysis results directly within VS Code, with both summary and detailed views.
+* **Automated Test Generation:** Uses an AI API to test files based on your Python code.
+* **Output Integration:** Provides a curated response from the an LLM explaining the bugs. 
+* **Simple Login:** Requires a basic username and password login to access the testing features.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

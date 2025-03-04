@@ -51,9 +51,3 @@ def complex_string_transform(input_string):
     encoded_string = base64.b64encode(final_string.encode()).decode('utf-8')
 
     return encoded_string
-
-# Example usage:
-test_string = "This is a test string 1234."
-transformed_string = complex_string_transform(test_string)
-print(f"Original string: {test_string}")
-print(f"Transformed string: {transformed_string}")
