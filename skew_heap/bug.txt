@@ -1,0 +1,10 @@
+skew_heap_1.py is BUGGY
+
+On line 100
+
+Incorrect implementation
+SkewNode.merge(self._root.left, self._root.left) if self._root else None
+
+
+Correct implementation
+SkewNode.merge(self._root.left, self._root.right) if self._root else None

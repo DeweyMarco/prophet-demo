@@ -1,9 +1,0 @@
-There is a bug in this code for calculating a hamiltonian circuit
-
-# Incorrect Implementation 
-        if node in path:
-            return True 
-
-# Correct Implementation 
-        if node in path:
-            return False

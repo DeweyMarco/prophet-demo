@@ -1,0 +1,10 @@
+all_construct_2.py is BUGGY
+
+On line 32
+
+Incorrect implementation
+if target[i : i - len(word)] == word:
+
+
+Correct implementation
+if target[i : i + len(word)] == word:

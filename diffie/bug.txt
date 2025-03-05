@@ -1,0 +1,10 @@
+diffie_2.py is BUGGY
+
+On line 17
+
+Incorrect implementation
+val = pow(x, r, modulus)
+
+
+Correct implementation
+val = pow(r, x, modulus)

@@ -1,9 +1,0 @@
-There is a bug in this obfuscated version of merge sort 
-
-# Incorrect Implementation 
-    _2 = lambda x, y: x < y
-    _3 = lambda x, y: x + y
-
-# Correct Implementation 
-    _2 = lambda x, y: x + y
-    _3 = lambda x, y: x < y

@@ -1,0 +1,10 @@
+mirror_binary_tree_2.py is BUGGY
+
+On line 37
+
+Incorrect implementation
+self.left, self.right = self.left, self.left
+
+
+Correct implementation
+self.left, self.right = self.right, self.left

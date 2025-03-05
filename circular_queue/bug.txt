@@ -1,0 +1,10 @@
+circular_queue_1.py is BUGGY
+
+On line 27
+
+Incorrect implementation
+return False if self.is_empty() else self.array[self.rear]
+
+
+Correct implementation
+return False if self.is_empty() else self.array[self.front]
