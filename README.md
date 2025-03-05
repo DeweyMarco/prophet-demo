@@ -15,7 +15,7 @@
     * [Prophet Extension](https://marketplace.visualstudio.com/items?itemName=Prophet.prophet-test-tool)
 2.  **Login:**
     * Upon activation, the extension will prompt you to log in.
-    * Use your username and password.
+    * Use your password.
 3.  **Testing a Python File:**
     * Open the Toggle Panel (Ctrl+J or Cmd+J).
     * Select the "Prophet AI Debugger" tab. 
@@ -30,7 +30,7 @@
 
 * **Automated Test Generation:** Uses an AI API to test files based on your Python code.
 * **Output Integration:** Provides a curated response from the an LLM explaining the bugs. 
-* **Simple Login:** Requires a basic username and password login to access the testing features.
+* **Simple Login:** Requires a basic password login to access the testing features.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
